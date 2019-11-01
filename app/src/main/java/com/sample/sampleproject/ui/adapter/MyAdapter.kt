@@ -18,7 +18,7 @@ class MyAdapter(val mContext:Context,val myList: ArrayList<MyData.Row>) :
     RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.inflate_list_item_two, parent, false)
+            .inflate(R.layout.inflate_list_item, parent, false)
         return MyViewHolder(view)
     }
 
